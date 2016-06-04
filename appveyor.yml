@@ -1,0 +1,6 @@
+version: 1.0.{build}
+clone_folder: c:\ansible
+install:
+- ps: .\install.ps1
+build:
+  verbosity: minimal
